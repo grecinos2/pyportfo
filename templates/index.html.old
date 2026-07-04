@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+     <link rel="stylesheet" href="./static/style.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src="./static/script.js"></script>
+
+</head>
+<body>
+{{ name }}
+{{ post_id }}
+
+ This is a sample web page This is another entry.
+</body>
+</html>
